@@ -1,8 +1,7 @@
-# React + Vite
+Sitio web para el proyecto "Worms".
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creado por el grupo "Los Socketes" para el 2do cuatrimestre de 2023, materia Taller de Programación I - FIUBA
 
-Currently, two official plugins are available:
+[Sitio web](https://los-socketes.github.io/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Repositorio del proyecto](https://github.com/Los-Socketes/Worms)
