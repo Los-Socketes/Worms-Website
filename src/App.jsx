@@ -1,4 +1,7 @@
 import './App.css'
+import wormsLogoUrl from './assets/WormsLogo.png'
+import pdfUrl from './assets/ManualDeUsuario-Worms-Los-Socketes.pdf'
+import githubUrl from './assets/github-mark.svg'
 import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material'
 
 function App() {
@@ -24,7 +27,7 @@ function App() {
           <Toolbar className="navbar">
             <Box>
               <Button color="inherit" href="#home" onClick={(event) => smoothScroll(event, '#back-to-top-anchor')}>
-                <img src="src\assets\WormsLogo.png" alt="logo" className="navlogo" />
+                <img src={wormsLogoUrl} alt="logo" className="navlogo" />
               </Button>
             </Box>
             <Box>
@@ -37,7 +40,7 @@ function App() {
         </AppBar>
         <Toolbar id="back-to-top-anchor" />
         <Box className="section" id="home">
-          <img src="src\assets\WormsLogo.png" alt="logo" className="logo" />
+          <img src={wormsLogoUrl} alt="logo" className="logo" />
           <Typography variant="h4">Taller de Programación I - FIUBA</Typography>
           <Typography variant="h5">Grupo "Los Socketes"</Typography>
           <Typography variant="body1">Recreación del reconocido juego de estrategia Worms utilizando C++. </Typography>
@@ -52,13 +55,13 @@ function App() {
           <Typography variant="h2">Repositorio</Typography>
           <br />
           <a href="https://github.com/Los-Socketes/Worms" target="_blank" rel="noreferrer">
-            <img src="src\assets\github-mark.svg" alt="GitHub logo" />
+            <img src={githubUrl} alt="GitHub logo" />
           </a>
         </Box>
         <Box className="section" id="manual">
           <Typography variant="h3">Manual de usuario</Typography>
           <br />
-          <embed src="src\assets\ManualDeUsuario-Worms-Los-Socketes.pdf" type="application/pdf" width="100%" height="800px" />
+          <embed src={pdfUrl} type="application/pdf" width="100%" height="800px" />
         </Box>
         <Box className="section" id="footer">
           <Typography variant="h3">Créditos</Typography>
